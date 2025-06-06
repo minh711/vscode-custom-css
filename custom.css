@@ -1,0 +1,97 @@
+.monaco-editor,
+.monaco-workbench,
+.monaco-list,
+.monaco-tree,
+.monaco-inputbox,
+.monaco-editor-background,
+.monaco-editor .view-lines,
+.monaco-editor .margin,
+.tabs-container,
+.editor,
+.activitybar,
+.titlebar,
+.statusbar,
+.sidebar,
+.panel,
+.explorer-viewlet,
+.quick-input-widget,
+.scm-view,
+.debug-view-content,
+.terminal,
+.terminal .xterm,
+.settings-editor,
+.input,
+.button,
+.dropdown,
+.checkbox,
+.text-input,
+.select-container,
+.extension-viewlet,
+.extensions-view,
+.notifications-toasts {
+  font-family: "ComicShannsMono Nerd Font", "ComicShannsMono Nerd Font Mono",
+    "Cascadia Code NF", "CaskaydiaCove Nerd Font Mono", "Ubuntu Mono", monospace !important;
+}
+
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container.active
+  > .title
+  .tabs-container
+  > .tab.active {
+  position: relative;
+}
+
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container.active
+  > .title
+  .tabs-container
+  > .tab.active::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 4px solid #ffffff75;
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container.active
+  > .title
+  .tabs-container
+  > .tab::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid #ffffff75;
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.monaco-workbench .part.editor > .content .editor-container {
+  position: relative;
+}
+
+.monaco-workbench .part.editor > .content .editor-container::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 12px;
+  width: calc(100% - 12px);
+  height: calc(100%);
+  z-index: 9;
+  border: 2px solid #ffffff75;
+  box-sizing: border-box;
+  pointer-events: none;
+}
