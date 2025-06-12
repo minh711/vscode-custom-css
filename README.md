@@ -2,9 +2,9 @@
 
 ## Features
 
-- Border for each file.
-- Border on focused file.
-- ***Change VSCode UI font.***
+1. Border for each file on workspace.
+2. Border on focused file.
+3. ***Change VSCode UI font.***
 
 ## Installation
 
