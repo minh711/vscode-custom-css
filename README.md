@@ -1,5 +1,13 @@
 # Custom CSS for customizing VSCode
 
+## Features
+
+- Border for each file.
+- Border on focused file.
+- ***Change VSCode UI font.***
+
+## Installation
+
 I used this extension:
 
 ![image](https://github.com/user-attachments/assets/39561cf5-2e6a-4009-a1b9-dd5639f92c6c)
