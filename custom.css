@@ -79,6 +79,18 @@
   box-sizing: border-box;
 }
 
+.monaco-workbench .part.sidebar.left::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid #ffffff75;
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
 .monaco-workbench .part.editor > .content .editor-container {
   position: relative;
 }
